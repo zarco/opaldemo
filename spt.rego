@@ -4,4 +4,4 @@ package org.hbsp.proxy
 default allow = true
 
 # Dummy rule just for testing
-allow := input.uri != "/sp/api/v2/forbidden"
+allow := input.uri != "/sp/api/forbidden"
